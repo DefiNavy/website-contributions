@@ -1,7 +1,7 @@
-name: Add new link
-description: Request adding a new link to the website
-title: "[Add]: <Project, project names or \"Multiple (if they're too many)\">"
-labels: ["add link"]
+name: Modify existing link
+description: Request modifying an existing link already present on the website
+title: "[Modify]: <Project, project names or \"Multiple (if they're too many)\">"
+labels: ["modify or update link"]
 assignees:
   - dreth
 body:
@@ -12,13 +12,13 @@ body:
 
         ### Links HOWTO
         
-        To add any links, do so in the following format:
+        To modify any links, do so in the following format:
 
         ```md
         - [link label](https://link_content.com){:target="_blank"}
         ```
 
-        If you want to add multiple links, just write them one under the other:
+        If you want to modify multiple links, just write them one under the other:
 
         ```md
         - [link label1](https://link_content1.com){:target="_blank"}
@@ -27,8 +27,8 @@ body:
   - type: dropdown
     id: section
     attributes:
-      label: Section to add the link to
-      description: Under what website section should this be added
+      label: Section where the link is located
+      description: Under what website section is this link, so we can find it and fix it
       options:
         - dApps - Decentralized Exchanges
         - dApps - Lending protocols
@@ -53,7 +53,7 @@ body:
   - type: textarea
     id: links
     attributes:
-      label: Link(s) to add
+      label: Modified link(s)
       description: Remember to add links formatted as markdown links as explained above
       render: shell
   - type: checkboxes
