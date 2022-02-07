@@ -1,51 +1,53 @@
 name: Bug Report
 description: File a bug report
-title: "[Bug]: "
-labels: ["bug", "triage"]
+title: "[Add link]: Project, project names or "Miscellaneous""
+labels: ["add link"]
 assignees:
-  - octocat
+  - dreth
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
-  - type: input
-    id: contact
+        Thanks for contributing with DeFi⚓Navy!
+        
+        To add any links, do so in the following format:
+
+        ```md
+        - [link label](https://link_content.com){:target="_blank"}
+        ```
+
+        If you want to add multiple links, just write them one under the other:
+
+        ```md
+        - [link label1](https://link_content1.com){:target="_blank"}
+        - [link label2](https://link_content2.com){:target="_blank"}
+        ```
+  - type: dropdown
+    id: section
     attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
-    validations:
-      required: false
-  - type: textarea
-    id: what-happened
-    attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
+      label: Section
+      description: Under what website section should this be added
+      options:
+        - dApps - Decentralized Exchanges
+        - dApps - Lending protocols
+        - dApps - Assets
+        - dApps - Indexes
+        - dApps - Insurance
+        - dApps - Options
+        - dApps - Staking protocols
+        - dApps - Yield farming protocols
+        - dApps - Domains
+        - dApps - NFTs
+        - Communities - Reddit
+        - Communities - Other sites
+        - Utilities - Block explorers
+        - Utilities - Development
+        - Utilities - Crypto jobs
+        - Utilities - Miscellaneous useful sites
+        - Utilities - Price tracking sites
+        - Utilities - Wallets
     validations:
       required: true
-  - type: dropdown
-    id: version
-    attributes:
-      label: Version
-      description: What version of our software are you running?
-      options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
-    validations:
-      required: true
-  - type: dropdown
-    id: browsers
-    attributes:
-      label: What browsers are you seeing the problem on?
-      multiple: true
-      options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
   - type: textarea
     id: logs
     attributes:
@@ -55,8 +57,8 @@ body:
   - type: checkboxes
     id: terms
     attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
+      label: I know how to read
+      description: By submitting this issue, you declare that you have read, searched or checked through the issues page before submitting it.
       options:
-        - label: I agree to follow this project's Code of Conduct
+        - label: Yes, my submission is not duplicated
           required: true
