@@ -8,7 +8,9 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for contributing with DeFi⚓Navy!
+        ### Thanks for contributing with DeFi⚓Navy!
+
+        #### Links HOWTO
         
         To add any links, do so in the following format:
 
@@ -25,7 +27,7 @@ body:
   - type: dropdown
     id: section
     attributes:
-      label: Section
+      label: Section to add the link to
       description: Under what website section should this be added
       options:
         - dApps - Decentralized Exchanges
@@ -49,10 +51,10 @@ body:
     validations:
       required: true
   - type: textarea
-    id: logs
+    id: links
     attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      label: Links to add
+      description: Remember to add links formatted as markdown links as explained above
       render: shell
   - type: checkboxes
     id: terms
