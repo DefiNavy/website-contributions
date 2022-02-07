@@ -1,6 +1,6 @@
-name: Bug Report
-description: File a bug report
-title: "[Add link]: Project, project names or "Miscellaneous""
+name: Add new link
+description: Request adding a new link to the website
+title: "[Add link]: Project, project names or \"Miscellaneous\""
 labels: ["add link"]
 assignees:
   - dreth
