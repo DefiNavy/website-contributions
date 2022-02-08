@@ -11,18 +11,13 @@ body:
         ## Thanks for contributing with DeFi⚓Navy!
 
         ### Links HOWTO
+
+        **You can use our [link formatting tool](http://defi.navy/linktool/)**
         
         To modify any links, do so in the following format:
 
         ```md
         - [link label](https://link_content.com){:target="_blank"}
-        ```
-
-        If you want to modify multiple links, just write them one under the other:
-
-        ```md
-        - [link label1](https://link_content1.com){:target="_blank"}
-        - [link label2](https://link_content2.com){:target="_blank"}
         ```
   - type: dropdown
     id: section
