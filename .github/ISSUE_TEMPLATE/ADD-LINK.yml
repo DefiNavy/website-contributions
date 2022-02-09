@@ -54,7 +54,7 @@ body:
   - type: checkboxes
     id: terms
     attributes:
-      label: I know how to read
+      label: Is this a duplicate?
       description: By submitting this issue, you declare that you have read, searched or checked through the issues page before submitting it.
       options:
         - label: Yes, my submission is not duplicated
