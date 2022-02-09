@@ -1,6 +1,6 @@
 name: Modify existing link
 description: Request modifying an existing link already present on the website
-title: "[Modify]: <Project, project names or \"Multiple (if they're too many)\">"
+title: "[Modify]: "
 labels: ["modify or update link"]
 assignees:
   - dreth

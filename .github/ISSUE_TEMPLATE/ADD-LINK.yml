@@ -1,6 +1,6 @@
 name: Add new link
 description: Request adding a new link to the website
-title: "[Add]: <Project, project names or \"Multiple (if they're too many)\">"
+title: "[Add]: "
 labels: ["add link"]
 assignees:
   - dreth

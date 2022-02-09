@@ -1,6 +1,6 @@
 name: Fix broken link
 description: Report a broken link on the website
-title: "[Broken]: <Project, project names or \"Multiple (if they're too many)\">"
+title: "[Broken]: "
 labels: ["broken link"]
 assignees:
   - dreth
