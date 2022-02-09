@@ -31,6 +31,8 @@ body:
         - dApps - Indexes
         - dApps - Insurance
         - dApps - Options
+        - dApps - Dashboards
+        - dApps - Bridges
         - dApps - Staking protocols
         - dApps - Yield farming protocols
         - dApps - Domains
