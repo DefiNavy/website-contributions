@@ -14,7 +14,7 @@ assignees: dreth
 ### Browser console error
 
 ```
-Write any console logs if applicable here!
+Paste any browser console logs if applicable here!
 ```
 
 ### Screenshots (if applicable)
