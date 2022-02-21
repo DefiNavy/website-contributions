@@ -15,3 +15,9 @@ Please **read** carefully the instructions in each issue posting form before sub
 - [Fix a broken link](https://github.com/DefiNavy/website-contributions/issues/new?assignees=dreth&labels=broken+link&template=BROKEN-LINK.yml&title=%5BBroken%5D%3A+)
 
 - [Submit a bug report](https://github.com/DefiNavy/website-contributions/issues/new?assignees=dreth&labels=bug&template=bug_report.md&title=%5BBug%5D%3A+)
+
+### Financials
+
+If you want to help us cover running costs, you can send any ERC-20 tokens or ETH to `definavy.eth` or the address it points to: `0x1Ac6400091c188079C1d216427a182193c20f986`
+
+Or just share the site around, any help is appreciated!
