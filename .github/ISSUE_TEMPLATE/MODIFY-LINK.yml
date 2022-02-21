@@ -27,19 +27,26 @@ body:
       options:
         - dApps - Decentralized Exchanges
         - dApps - Lending protocols
-        - dApps - Assets
+        - dApps - CDP
+        - dApps - Yield
         - dApps - Indexes
+        - dApps - Liquid staking
         - dApps - Insurance
-        - dApps - Options
         - dApps - Dashboards
         - dApps - Bridges
-        - dApps - Staking protocols
-        - dApps - Yield farming protocols
+        - dApps - Options
+        - dApps - Derivatives
+        - dApps - Staking
+        - dApps - Stablecoins
         - dApps - Domains
         - dApps - NFTs
+        - dApps - Services
+        - dApps - Ohm forks and stuff
+        - dApps - Others
         - Communities - Reddit
         - Communities - Other sites
         - Utilities - Block explorers
+        - Utilities - Ethereum metrics
         - Utilities - Development
         - Utilities - Crypto jobs
         - Utilities - Miscellaneous useful sites
